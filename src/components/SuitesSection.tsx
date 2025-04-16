@@ -64,9 +64,12 @@ const SuitesSection = () => {
                 <div className="aspect-[3/4] relative">
                   <div 
                     className="absolute inset-0 bg-[url('/fami-suite2.png')] bg-cover bg-center"
-                    style={{backgroundImage: index === 0 ? "url('/fami-suite2.png')" : 
-                                          index === 1 ? "url('/fami-bathroom.png')" : 
-                                          "url('/fami-kitchen.png')"}}
+                    style={{
+                      backgroundImage: index === 0 ? "url('/fami-suite2.png')" : 
+                                    index === 1 ? "url('/fami-bathroom.png')" : 
+                                    "url('/fami-kitchen.png')",
+                      ...(index === 1 && { backgroundColor: 'rgba(0,0,0,0.3)', backgroundBlendMode: 'darken' })
+                    }}
                   ></div>
                   <div 
                     className="absolute inset-0 bg-gradient-to-t from-fami-black via-transparent to-transparent"
