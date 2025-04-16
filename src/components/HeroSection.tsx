@@ -47,8 +47,8 @@ const HeroSection = () => {
         <h1 className="font-display text-4xl md:text-6xl lg:text-7xl text-fami-gold mb-4">
           Where Paris Whispers
         </h1>
-        <p className="font-serif text-fami-cream/80 max-w-[460px] text-sm md:text-base leading-relaxed mb-12">
-          Behind a timber façade restored to original Louis XIII style, discover a hidden sanctuary in the heart of old Paris, where timeless elegance meets modern hospitality.
+        <p className="font-serif text-fami-cream/80 max-w-[580px] text-sm md:text-base leading-relaxed mb-12">
+          Behind a timber façade restored to original Louis XIII style, discover a hidden sanctuary in the heart of old Paris, where timeless elegance meets modern&nbsp;hospitality.
         </p>
         
         <div className="shimmer w-32 h-px bg-fami-gold/30"></div>
