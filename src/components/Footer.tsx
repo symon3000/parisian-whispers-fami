@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8 max-w-5xl mx-auto">
           <div>
-            <h3 className="font-display text-fami-gold text-xl mb-6">|Fami| Paris</h3>
+            <h3 className="font-display text-fami-gold text-xl mb-6">(Fami) Paris</h3>
             <p className="text-sm mb-4 leading-relaxed">
               23 Rue des Secrets<br />
               75004 Paris, France
