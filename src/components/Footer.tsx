@@ -9,8 +9,8 @@ const Footer = () => {
           <div>
             <h3 className="font-display text-fami-gold text-xl mb-6">(Fami) Paris</h3>
             <p className="text-sm mb-4 leading-relaxed">
-              23 Rue des Secrets<br />
-              75004 Paris, France
+              234 Rue Saint-Martin<br />
+              75003 Paris, France
             </p>
             <div className="flex items-center space-x-4 text-sm">
               <a href="#" className="hover:text-fami-gold transition-colors">
@@ -35,7 +35,7 @@ const Footer = () => {
             </nav>
           </div>
           
-          <div>
+          {/* <div>
             <h4 className="font-serif text-fami-gold mb-4">Newsletter</h4>
             <p className="text-sm mb-4">
               Subscribe to receive updates on events, special offers, and Parisian whispers.
@@ -53,18 +53,11 @@ const Footer = () => {
                 Submit
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
         
         <div className="mt-16 pt-6 border-t border-fami-gold/10 text-center text-xs text-fami-cream/40">
           <p>&copy; {new Date().getFullYear()} Fami Paris. All rights reserved.</p>
-          <p className="mt-1">
-            <a href="#" className="hover:text-fami-cream transition-colors">Privacy</a>
-            {' • '}
-            <a href="#" className="hover:text-fami-cream transition-colors">Terms</a>
-            {' • '}
-            <a href="#" className="hover:text-fami-cream transition-colors">Cookies</a>
-          </p>
         </div>
       </div>
     </footer>
