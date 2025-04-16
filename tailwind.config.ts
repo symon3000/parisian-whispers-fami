@@ -10,6 +10,11 @@ export default {
 	],
 	prefix: "",
 	theme: {
+		fontFamily: {
+            serif: ['Cormorant Garamond', 'serif'],
+            display: ['Marcellus', 'serif'],
+            sans: ['Montserrat', 'sans-serif'],
+        },
 		container: {
 			center: true,
 			padding: '2rem',
@@ -19,6 +24,14 @@ export default {
 		},
 		extend: {
 			colors: {
+				fami: {
+					black: '#121212',
+					charcoal: '#1A1F2C',
+					darkgray: '#222222',
+					gold: '#D4B98C',
+					cream: '#F5F2E9',
+					copper: '#B87333',
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
