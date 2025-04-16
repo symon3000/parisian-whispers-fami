@@ -39,12 +39,15 @@ const Navbar = () => {
         </a>
         
         <nav className="hidden md:flex items-center space-x-10 text-xs tracking-widest uppercase">
-          <a href="#story" className="text-fami-cream hover:text-fami-gold transition-colors">L&apos;story</a>
-          <a href="#suites" className="text-fami-cream hover:text-fami-gold transition-colors">Accueil</a>
-          <a href="#interiors" className="text-fami-cream hover:text-fami-gold transition-colors">Intérieurs</a>
-          <button className="border border-fami-gold text-fami-gold px-8 py-3 hover:bg-fami-gold/10 transition-all">
-            Menu
-          </button>
+          <a href="#story" className="text-fami-cream hover:text-fami-gold transition-colors">La Maison</a>
+          <a href="#interiors" className="text-fami-cream hover:text-fami-gold transition-colors">Le Décor</a>
+          <a href="#suites" className="text-fami-cream hover:text-fami-gold transition-colors">Les Suites</a>
+          <a 
+            href="#suites" 
+            className="border border-fami-gold text-fami-gold px-8 py-3 hover:bg-fami-gold/10 transition-all"
+          >
+            Book
+          </a>
         </nav>
         
         <button 

@@ -51,7 +51,7 @@ const SuitesSection = () => {
       <div className="container mx-auto px-6 md:px-8">
         <div className="max-w-5xl mx-auto">
           <h2 className="reveal font-display text-3xl md:text-5xl text-fami-gold mb-12 text-center">
-            Accueil
+            Our Suites
           </h2>
           
           <div className="grid md:grid-cols-3 gap-6 md:gap-10">
@@ -94,12 +94,11 @@ const SuitesSection = () => {
           
           <div className="reveal mt-16 text-center" style={{transitionDelay: '0.45s'}}>
             <p className="text-fami-cream/70 mb-8 max-w-lg mx-auto">
-              Each suite at Fami is uniquely designed to provide an intimate, luxurious experience 
-              while preserving the authentic character of old Paris.
+              Three singular sanctuaries—cut from the same cloth, yet each unmistakably its own. Designed for quiet retreat or life in the thick of it, with noble materials, thoughtful details, and the quiet luxury of total privacy.
             </p>
             
-            <a href="#" className="inline-block border border-fami-gold px-8 py-3 text-fami-gold hover:bg-fami-gold/10 transition-colors text-sm tracking-widest uppercase">
-              Request Booking
+            <a href="https://wa.me/19172090018?text=I'm%20interested%20in%20staying%20with%20Fami.%20Could%20you%20share%20current%20availability%2C%20please%3F" className="inline-block border border-fami-gold px-8 py-3 text-fami-gold hover:bg-fami-gold/10 transition-colors text-sm tracking-widest uppercase">
+              Check Availability
             </a>
           </div>
         </div>

@@ -13,13 +13,13 @@ const Footer = () => {
               75003 Paris, France
             </p>
             <div className="flex items-center space-x-4 text-sm">
-              <a href="#" className="hover:text-fami-gold transition-colors">
+              {/* <a href="#" className="hover:text-fami-gold transition-colors">
                 <Instagram size={18} />
-              </a>
-              <a href="mailto:contact@famiparis.com" className="hover:text-fami-gold transition-colors">
+              </a> */}
+              {/* <a href="mailto:contact@famiparis.com" className="hover:text-fami-gold transition-colors">
                 <Mail size={18} />
-              </a>
-              <a href="tel:+33123456789" className="hover:text-fami-gold transition-colors">
+              </a> */}
+              <a href="https://wa.me/19172090018?text=I'm%20interested%20in%20staying%20with%20Fami.%20Could%20you%20share%20current%20availability%2C%20please%3F" className="hover:text-fami-gold transition-colors">
                 <Phone size={18} />
               </a>
             </div>
@@ -28,10 +28,9 @@ const Footer = () => {
           <div>
             <h4 className="font-serif text-fami-gold mb-4">Explore</h4>
             <nav className="flex flex-col space-y-2 text-sm">
-              <a href="#story" className="hover:text-fami-gold transition-colors">L'Story</a>
-              <a href="#suites" className="hover:text-fami-gold transition-colors">Accueil</a>
-              <a href="#interiors" className="hover:text-fami-gold transition-colors">Intérieurs</a>
-              <a href="#" className="hover:text-fami-gold transition-colors">Reservations</a>
+              <a href="#story" className="hover:text-fami-gold transition-colors">La Maison</a>
+              <a href="#suites" className="hover:text-fami-gold transition-colors">Les Suites</a>
+              <a href="#interiors" className="hover:text-fami-gold transition-colors">Le Décor</a>
             </nav>
           </div>
           
