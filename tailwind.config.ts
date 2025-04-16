@@ -12,7 +12,7 @@ export default {
 	theme: {
 		fontFamily: {
             serif: ['Cormorant Garamond', 'serif'],
-            display: ['Forum', 'serif'],
+            display: ['Marcellus', 'serif'],
             sans: ['Montserrat', 'sans-serif'],
         },
 		container: {
