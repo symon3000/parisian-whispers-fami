@@ -1,9 +1,8 @@
-
 import { useEffect, useRef } from 'react';
 
 const InteriorsSection = () => {
   const sectionRef = useRef<HTMLElement>(null);
-  
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -35,17 +34,17 @@ const InteriorsSection = () => {
           <h2 className="reveal font-display text-3xl md:text-5xl text-fami-gold mb-6 text-center">
             Intérieurs
           </h2>
-          
+
           <p className="reveal text-fami-cream/70 text-center max-w-xl mx-auto mb-16 font-serif italic">
             "The ground floor transforms into a secret sanctuary for exclusive gatherings 
             and intimate celebrations."
           </p>
-          
+
           <div className="grid md:grid-cols-2 gap-6 md:gap-12 mb-24">
             <div className="reveal h-[400px] md:h-[600px] bg-fami-darkgray/60 relative group overflow-hidden">
               <div 
                 className="absolute inset-0 transition-transform duration-700 ease-in-out 
-                bg-[url('/public/placeholder.svg')] bg-cover bg-center group-hover:scale-105"
+                bg-[url('/fami-bed.png')] bg-cover bg-center group-hover:scale-105"
               ></div>
               <div 
                 className="absolute inset-0 bg-gradient-to-t from-fami-black via-fami-black/50 to-transparent 
@@ -62,7 +61,7 @@ const InteriorsSection = () => {
                 </p>
               </div>
             </div>
-            
+
             <div className="reveal h-[400px] md:h-[600px] bg-fami-darkgray/60 relative group overflow-hidden" style={{transitionDelay: '0.2s'}}>
               <div 
                 className="absolute inset-0 transition-transform duration-700 ease-in-out 
@@ -84,7 +83,7 @@ const InteriorsSection = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="reveal text-center">
             <a href="#suites" className="inline-block border border-fami-gold px-8 py-3 text-fami-gold hover:bg-fami-gold/10 transition-colors text-sm tracking-widest uppercase">
               Discover Our Suites
