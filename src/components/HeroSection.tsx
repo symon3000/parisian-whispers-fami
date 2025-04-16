@@ -39,7 +39,7 @@ const HeroSection = () => {
       
       <div 
         className="absolute inset-0 bg-cover bg-center opacity-50"
-        style={{ backgroundImage: "url('/lovable-uploads/c25415a1-f3ef-4146-8d7c-f6dd5f8ed1f4.png')" }}
+        style={{ backgroundImage: "url('/fami-room.png')" }}
         aria-hidden="true"
       />
       
