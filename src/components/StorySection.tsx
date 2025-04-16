@@ -40,10 +40,10 @@ const StorySection = () => {
             <div className="reveal">
               <div className="aspect-[3/4] relative overflow-hidden">
                 <div 
-                  className="absolute inset-0 bg-cover bg-center"
+                  className="absolute inset-0 bg-cover bg-center opacity-80"
                   style={{ backgroundImage: "url('/fami-stairs.png')" }}
                 ></div>
-                <div className="absolute inset-0 bg-gradient-to-t from-fami-black via-transparent to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-fami-black via-fami-black/40 to-transparent"></div>
                 <div className="absolute bottom-8 left-8 right-8">
                   <h3 className="font-serif text-fami-cream text-2xl mb-2">Heritage</h3>
                   <div className="h-px w-12 bg-fami-gold mb-4"></div>
