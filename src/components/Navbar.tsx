@@ -35,7 +35,7 @@ const Navbar = () => {
           href="#" 
           className="font-display text-2xl md:text-3xl text-fami-gold"
         >
-          |Fami| Paris
+          (Fami) Paris
         </a>
         
         <nav className="hidden md:flex items-center space-x-10 text-xs tracking-widest uppercase">

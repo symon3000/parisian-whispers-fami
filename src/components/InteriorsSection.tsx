@@ -65,7 +65,7 @@ const InteriorsSection = () => {
             <div className="reveal h-[400px] md:h-[600px] bg-fami-darkgray/60 relative group overflow-hidden" style={{transitionDelay: '0.2s'}}>
               <div 
                 className="absolute inset-0 transition-transform duration-700 ease-in-out 
-                bg-[url('/fami-kitchen.png')] bg-cover bg-center group-hover:scale-105"
+                bg-[url('/fami-chairs.png')] bg-cover bg-center group-hover:scale-105"
               ></div>
               <div 
                 className="absolute inset-0 bg-gradient-to-t from-fami-black via-fami-black/50 to-transparent 
