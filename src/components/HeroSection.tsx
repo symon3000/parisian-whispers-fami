@@ -10,6 +10,8 @@ const HeroSection = () => {
       ([entry]) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('fade-in');
+          // Remove the initial opacity-0 class to prevent disappearing
+          entry.target.classList.remove('opacity-0');
         }
       },
       { threshold: 0.1 }
@@ -30,6 +32,7 @@ const HeroSection = () => {
     <section 
       ref={heroRef}
       className="relative h-screen w-full bg-fami-black overflow-hidden opacity-0"
+      id="hero"
     >
       <div 
         className="absolute inset-0 bg-gradient-to-t from-fami-black via-fami-black/60 to-transparent z-10"
