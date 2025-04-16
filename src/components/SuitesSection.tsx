@@ -74,11 +74,13 @@ const SuitesSection = () => {
                   <div 
                     className="absolute inset-0 bg-gradient-to-t from-fami-black via-transparent to-transparent"
                   ></div>
-                  <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-fami-black via-fami-black/70 to-transparent">
+                  <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-fami-black via-fami-black/70 to-transparent flex flex-col">
                     <h3 className="font-serif text-fami-gold text-xl mb-1">{suite.name}</h3>
                     <div className="h-px w-10 bg-fami-gold/60 mb-3"></div>
-                    <p className="text-fami-cream/70 text-sm mb-3">{suite.description}</p>
-                    <div className="flex justify-between items-center">
+                    <div className="min-h-[80px] md:min-h-[60px]">
+                      <p className="text-fami-cream/70 text-sm">{suite.description}</p>
+                    </div>
+                    <div className="flex justify-between items-center mt-3">
                       <span className="text-fami-cream/80 text-xs">{suite.size}</span>
                       <button className="text-fami-gold text-xs tracking-wider hover:text-fami-cream transition-colors">
                         DETAILS
