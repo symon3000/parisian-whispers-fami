@@ -10,7 +10,6 @@ const HeroSection = () => {
       ([entry]) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('fade-in');
-          // Remove the initial opacity-0 class to prevent disappearing
           entry.target.classList.remove('opacity-0');
         }
       },
@@ -41,7 +40,7 @@ const HeroSection = () => {
       
       <div 
         className="absolute inset-0 bg-cover bg-center opacity-50"
-        style={{ backgroundImage: "url('/lovable-uploads/1e701f41-cfd0-418d-99fd-ea20a021dd2c.png')" }}
+        style={{ backgroundImage: "url('/lovable-uploads/latest-image.png')" }}
         aria-hidden="true"
       />
       
