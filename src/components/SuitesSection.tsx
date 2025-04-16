@@ -26,19 +26,19 @@ const SuitesSection = () => {
 
   const suites = [
     {
-      name: "Sanctuary",
-      description: "A hidden retreat with exposed wooden beams and a freestanding copper bathtub.",
-      size: "45m²"
+      name: "Première",
+      description: "A soft Brutalist hideaway with warm travertine, a sun-drenched patio, and a Bastiano sofa made for lingering.",
+      size: "70m²"
     },
     {
-      name: "Hideaway",
-      description: "Tucked beneath the Parisian eaves, offering seclusion and panoramic views.",
+      name: "Deuxième",
+      description: "Modernist calm meets timeless design, with a Cor Trio sofa and sculptural lighting setting the mood.",
       size: "60m²"
     },
     {
-      name: "Loft of Dreams",
-      description: "Our most spacious suite, with vintage furnishings and dramatic lighting.",
-      size: "75m²"
+      name: "Troisième",
+      description: "An expansive lofted retreat with room to gather, curl up, or drift off under Scandinavian lines and soft, glowing lamps.",
+      size: "80m²"
     }
   ];
 

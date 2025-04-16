@@ -33,7 +33,7 @@ const StorySection = () => {
       <div className="container mx-auto px-6 md:px-8">
         <div className="max-w-4xl mx-auto">
           <h2 className="reveal font-display text-3xl md:text-5xl text-fami-gold mb-12 text-center">
-            L&apos;Story
+            Living History
           </h2>
           
           <div className="grid md:grid-cols-2 gap-12 md:gap-24">
@@ -48,8 +48,8 @@ const StorySection = () => {
                   <h3 className="font-serif text-fami-cream text-2xl mb-2">Heritage</h3>
                   <div className="h-px w-12 bg-fami-gold mb-4"></div>
                   <p className="text-fami-cream/70 text-sm">
-                    Housed in a restored 17th-century building, Fami Paris 
-                    preserves the whispers of history within its walls.
+                    Housed in a restored 17th-century building, Fami 
+                    preserves the spirit of history in its walls.
                   </p>
                 </div>
               </div>
@@ -57,18 +57,15 @@ const StorySection = () => {
             
             <div className="reveal" style={{transitionDelay: '0.2s'}}>
               <p className="text-fami-cream/80 mb-6 leading-relaxed">
-                In the heart of old Paris, where cobblestone streets tell stories of centuries 
-                past, Fami stands as a testament to timeless elegance and discreet luxury. 
+                In the beautiful Marais, where cobblestone streets tell stories of centuries past, Fami stands as a testament to elevated living in discreet luxury. 
               </p>
               
               <p className="text-fami-cream/80 mb-6 leading-relaxed">
-                The vision behind Fami was to create not merely accommodations, but 
-                an intimate sanctuary where the rich history of Paris meets contemporary comfort 
-                in perfect harmony.
+                Fami was created to provide more than mere accommodation. As an intimate home-away-from home, it fosters the familiar comfort and ease felt among closest friends and family.
               </p>
               
               <p className="text-fami-cream/80 leading-relaxed">
-                Each element of Fami has been thoughtfully curated—from the preserved 
+                Each element of our suites have been thoughtfully curated—from the preserved 
                 architectural details to the carefully selected furnishings—creating 
                 spaces that feel both historically authentic and subtly modern.
               </p>
