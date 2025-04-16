@@ -65,7 +65,7 @@ const StorySection = () => {
               </p>
               
               <p className="text-fami-cream/80 leading-relaxed">
-                Each element of our suites have been thoughtfully curated—from the preserved 
+                Each element of our suites has been thoughtfully curated—from the preserved 
                 architectural details to the carefully selected furnishings—creating 
                 spaces that feel both historically authentic and subtly modern.
               </p>

@@ -36,8 +36,7 @@ const InteriorsSection = () => {
           </h2>
 
           <p className="reveal text-fami-cream/70 text-center max-w-xl mx-auto mb-16 font-serif italic">
-            "The ground floor transforms into a secret sanctuary for exclusive gatherings 
-            and intimate celebrations."
+            "Play with contrast to create balance across the entire space: Minimalist and Brutalist; hidden yet open; calm yet electric—at the center of everything, yet cozily sheltered from it."
           </p>
 
           <div className="grid md:grid-cols-2 gap-6 md:gap-12 mb-24">
@@ -52,12 +51,11 @@ const InteriorsSection = () => {
               ></div>
               <div className="absolute bottom-8 left-8 right-8">
                 <h3 className="font-serif text-fami-gold text-xl mb-2 group-hover:text-fami-cream transition-colors">
-                  The Salon
+                  Curated Comfort
                 </h3>
                 <div className="h-px w-12 bg-fami-gold/70 mb-4"></div>
                 <p className="text-fami-cream/70 text-sm max-w-xs">
-                  Where aged woodwork meets modern comfort, creating an intimate space for 
-                  conversation and contemplation.
+                  Sleek contemporary furnishings and thoughtful details create an atmosphere of effortless and refined ease.
                 </p>
               </div>
             </div>
@@ -73,12 +71,11 @@ const InteriorsSection = () => {
               ></div>
               <div className="absolute bottom-8 left-8 right-8">
                 <h3 className="font-serif text-fami-gold text-xl mb-2 group-hover:text-fami-cream transition-colors">
-                  The Library
+                  Material Harmony
                 </h3>
                 <div className="h-px w-12 bg-fami-gold/70 mb-4"></div>
                 <p className="text-fami-cream/70 text-sm max-w-xs">
-                  A sanctuary of knowledge and relaxation, where vintage books line walls of 
-                  rich, dark wood. Pause, read, reflect.
+                  Carefully selected materials like warm walnut and natural travertine define a sophisticated yet inviting ambience.
                 </p>
               </div>
             </div>
