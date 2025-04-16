@@ -48,7 +48,7 @@ const StorySection = () => {
                   <h3 className="font-serif text-fami-cream text-2xl mb-2">Heritage</h3>
                   <div className="h-px w-12 bg-fami-gold mb-4"></div>
                   <p className="text-fami-cream/70 text-sm">
-                    Housed in a restored 17th-century building, Fami 
+                    Housed in a restored 17th-century building, (Fami) 
                     preserves the spirit of history in its walls.
                   </p>
                 </div>
@@ -57,11 +57,11 @@ const StorySection = () => {
             
             <div className="reveal" style={{transitionDelay: '0.2s'}}>
               <p className="text-fami-cream/80 mb-6 leading-relaxed">
-                In the beautiful Marais, where cobblestone streets tell stories of centuries past, Fami stands as a testament to elevated living in discreet luxury. 
+                In the beautiful Marais, where cobblestone streets tell stories of centuries past, (Fami) stands as a testament to elevated living in discreet luxury. 
               </p>
               
               <p className="text-fami-cream/80 mb-6 leading-relaxed">
-                Fami was created to provide more than mere accommodation. As an intimate home-away-from home, it fosters the familiar comfort and ease felt among closest friends and family.
+                Created to provide more than mere accommodation, your intimate home-away-from home fosters the familiar comfort and ease cherished among closest friends and family.
               </p>
               
               <p className="text-fami-cream/80 leading-relaxed">

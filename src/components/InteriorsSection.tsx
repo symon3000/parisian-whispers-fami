@@ -32,7 +32,7 @@ const InteriorsSection = () => {
       <div className="container mx-auto px-6 md:px-8">
         <div className="max-w-5xl mx-auto">
           <h2 className="reveal font-display text-3xl md:text-5xl text-fami-gold mb-6 text-center">
-            Intérieurs
+            Styled Spaces
           </h2>
 
           <p className="reveal text-fami-cream/70 text-center max-w-xl mx-auto mb-16 font-serif italic">
