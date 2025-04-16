@@ -38,7 +38,11 @@ const StorySection = () => {
           
           <div className="grid md:grid-cols-2 gap-12 md:gap-24">
             <div className="reveal">
-              <div className="aspect-[3/4] bg-fami-darkgray/80 relative overflow-hidden">
+              <div className="aspect-[3/4] relative overflow-hidden">
+                <div 
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{ backgroundImage: "url('/fami-stairs.png')" }}
+                ></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-fami-black via-transparent to-transparent"></div>
                 <div className="absolute bottom-8 left-8 right-8">
                   <h3 className="font-serif text-fami-cream text-2xl mb-2">Heritage</h3>
