@@ -77,7 +77,7 @@ const SuitesSection = () => {
                   <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-fami-black via-fami-black/70 to-transparent flex flex-col">
                     <h3 className="font-serif text-fami-gold text-xl mb-1">{suite.name}</h3>
                     <div className="h-px w-10 bg-fami-gold/60 mb-3"></div>
-                    <div className="min-h-[80px] md:min-h-[60px]">
+                    <div className="min-h-[80px] md:min-h-[80px] lg:min-h-[100px]">
                       <p className="text-fami-cream/70 text-sm">{suite.description}</p>
                     </div>
                     <div className="flex justify-between items-center mt-3">
